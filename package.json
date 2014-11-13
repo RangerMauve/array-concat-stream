@@ -1,6 +1,6 @@
 {
   "name": "array-concat-stram",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A stream that takes in values and builds up an array. Every time the array is updated, the entire thing is emitted.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/RangerMauve/array-concat-stram/issues"
   },
-  "homepage": "https://github.com/RangerMauve/array-concat-stram"
+  "homepage": "https://github.com/RangerMauve/array-concat-stram",
+  "devDependencies": {
+    "interval-stream": "^0.2.0",
+    "stdout": "0.0.3",
+    "stream-array": "^1.0.1"
+  }
 }

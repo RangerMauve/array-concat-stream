@@ -3,7 +3,7 @@ var Transform = require("stream").Transform;
 module.exports = ArrayConcatStream;
 
 function ArrayConcatStream(state) {
-	var state = [];
+	state = state || [];
 
 	var stream = new Transform({
 		objectMode: true
