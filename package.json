@@ -1,0 +1,28 @@
+{
+  "name": "array-concat-stram",
+  "version": "0.0.0",
+  "description": "A stream that takes in values and builds up an array. Every time the array is updated, the entire thing is emitted.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RangerMauve/array-concat-stram.git"
+  },
+  "keywords": [
+    "array",
+    "stream",
+    "concat",
+    "aggregate",
+    "state",
+    "build",
+    "reactive"
+  ],
+  "author": "RangerMauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/array-concat-stram/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/array-concat-stram"
+}
