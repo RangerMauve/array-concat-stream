@@ -8,10 +8,10 @@ sort of action that requires the list of all the events gotten thus far.
 
 ## API
 
-### `ArrayConcatStream([state])`
+### `ArrayConcatStream([initialArray])`
 
 #### parameters
-* `[state]` (Array): Initial array to build up from
+* `[initialArray]` (Array): Initial array to build up from
 
 #### returns
  (DuplexStream): When data is piped into it, it concatenates it with an internal array, then outputs the entire array
