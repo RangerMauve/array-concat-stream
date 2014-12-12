@@ -1,6 +1,6 @@
 {
   "name": "array-concat-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A stream that takes in values and builds up an array. Every time the array is updated, the entire thing is emitted.",
   "main": "index.js",
   "scripts": {
